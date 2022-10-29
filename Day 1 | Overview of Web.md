@@ -1,5 +1,9 @@
 # _Overview of Web 🌐_
 
+## _Some Points_
+- Cost of using any package means the size that the particular package is consuming
+- Any package that has dependencies can be a threat to users using that package as some people adds malicious code to get the information
+
 # _Topics_
 - _**How to Integrate Frontend to Backend**_
 - _**Authentication**_
