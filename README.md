@@ -57,3 +57,6 @@ there are more than one way of doing the thing
 
 ## _Nodemon_
    - nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected
+
+## _Node JS Watch mode_
+nodejs -watch(it is beta mode)
