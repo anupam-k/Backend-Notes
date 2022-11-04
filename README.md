@@ -7,6 +7,9 @@
 ```text
 1) npm init
 
+   npm init -Y
+   - For saying YES to all the permissions
+
 2) Fill in details like:
 
    package name: (folder name by default) 
