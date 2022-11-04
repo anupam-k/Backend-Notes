@@ -9,14 +9,27 @@
 
 2) Fill in details like:
 
-   package name: (folder name by default) socialmedia
-   version: (1.0.0) 2.0.0
-   description: a getting started project to learn express
-   entry point: (index.js) app.js
+   package name: (folder name by default) 
+   version: (1.0.0) 
+   description:
+   entry point: (index.js)
    test command: 
    git repository: 
    keywords: 
-   author: hitesh choudhary
+   author:
+   license:
+   
+   
+   e.g.
+    package name: (foldername) socialmedia
+    version: (1.0.0) 2.0.0
+    description: getting started with the express
+    entry point(index.js): app.js
+    test command: 
+    git repository:
+    keywords:
+    author: Anupam Kumar Krishnan
+    license:
 
 3) package.json is created
 
@@ -24,3 +37,13 @@
    while filling details
 ```
 </b>
+
+
+## _Testing library:_  
+   - cypress, mocha, chai
+
+## _Backend API libraries:_
+   - Hapi, restify, express, sales JS, Adonis JS
+
+## _Demand is for:_ 
+   - Koa JS, Hapi JS
