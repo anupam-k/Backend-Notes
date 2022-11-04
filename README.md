@@ -44,7 +44,15 @@
 ```
 </b>
 
-
+## _Types of Requests_
+   
+   _**Web Request**_
+   
+   GET&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     => Requesting Information<br>
+   POST&nbsp;&nbsp;&nbsp;&nbsp;    => Add to Database<br>
+   PUT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     => Edit to Database<br>
+   DELETE&nbsp;  => Delete to Database<br>
+   
 ## _Testing library:_  
    - cypress, mocha, chai
 
