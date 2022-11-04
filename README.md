@@ -8,6 +8,7 @@
 1) npm init
 
    npm init -Y
+   - It will skip all the details that npm asks and install node directly
    - For saying YES to all the permissions
 
 2) Fill in details like:
