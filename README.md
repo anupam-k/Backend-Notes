@@ -45,14 +45,14 @@
 ```
 </b>
 
-## _Types of Requests_
+# _Types of Requests_
    
-   _**Web Request**_
+   ## _**Web Requests**_
    
-   GET&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     => Requesting Information<br>
-   POST&nbsp;&nbsp;&nbsp;&nbsp;    => Add to Database<br>
-   PUT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     => Edit to Database<br>
-   DELETE&nbsp;  => Delete to Database<br>
+   _**GET**_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     ➡️ _**Requesting Information**_<br>
+   _**POST**_&nbsp;&nbsp;&nbsp;&nbsp;    ➡️ _**Add to Database**_<br>
+   _**PUT**_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     ➡️ _**Edit to Database**_<br>
+   _**DELETE**_&nbsp;  ➡️ _**Delete to Database**_<br>
    
 ## _Testing library:_  
    - cypress, mocha, chai
