@@ -10,7 +10,19 @@
 - Web Request
 
 # _Topics for Today_
-- How to makt things permannt
+<b>Topic 1:</b> Quick Over<br>
+<b>Topic 2:</b> process.env and dotenv<br>
+<b>Topic 3:</b> ORM and ODM<br>
+<b>Topic 4:</b> Biagram B-Logic<br> 
+<b>Topic 5:</b> Functionality<br>
+
+<br>
+
+<b><i>Create Account</b></i> => name, email, mobile , pass<br>
+<b><i>Login</b></i>          => email and Pass<br>
+<b><i>Course Buy</b></i>    => user id, cid, price, paymentgateway<br>
+<br>
+- How to make things permannt
 - How to Inject Database
 - Hide Secret
    - HMAC
