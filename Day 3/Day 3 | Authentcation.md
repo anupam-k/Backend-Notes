@@ -60,4 +60,9 @@ Dev dependencies like nodemon we don't want to package for final build of the ap
 **_3) Dev (nodemon)_**<br>
 **_4) Design Schema for User_**<br>
 **_5) From the User_**<br>
+       - _Get all information_<br>
+       - _Check Man_<br>
+       - _Check Email Unique_<br>
+       - _Take care of Password_<br>
+       - _Sccuss essage or Send Token_<br>
 
