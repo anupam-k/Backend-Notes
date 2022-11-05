@@ -24,7 +24,7 @@
 - Everything that are credentials, those are written in dotenv file.
 - It is zero dependency module
 
-## Mongodb
+## _Mongodb_
 - We will be choosing `Mongodb`
 
  **Object Relational Mapping(ORM)** - SQL and <br>
