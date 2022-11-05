@@ -69,3 +69,9 @@ Dev dependencies like nodemon we don't want to package for final build of the ap
 ## _Database design: Homework_
 - Customer ecommerce
 - Normal user
+
+## _Notes:_
+- This is the schema of your `"user"` Collection that is going to be part of the db
+- Read schema types
+- **Default:** _If no value is passed for the particular property then default alue will be used_
+
