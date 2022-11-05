@@ -29,3 +29,7 @@
 
  **Object Relational Mapping(ORM)** - SQL and <br>
  **Object Document Mapping(ODM)** - No SQL
+
+## _Mongoose_
+- **_Mongoose is ODM for Mongodb_**
+- **_Tool which makes communication easier_**
