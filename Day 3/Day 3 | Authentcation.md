@@ -66,3 +66,6 @@ Dev dependencies like nodemon we don't want to package for final build of the ap
        &nbsp;&nbsp;&nbsp;&nbsp;- _Take care of Password_<br>
        &nbsp;&nbsp;&nbsp;&nbsp;- _Success Message or Send Token_<br>
 
+## _Database design: Homework_
+- Customer ecommerce
+- Normal user
