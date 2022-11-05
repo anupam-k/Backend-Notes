@@ -35,6 +35,8 @@
 ## _dotenv_
 - Everything that are credentials, those are written in dotenv file.
 - It is zero dependency module
+- .env doesn't allow semi-colon
+- .env must be in root directory
 
 ## _Mongodb_
 - We will be choosing `Mongodb`
@@ -52,4 +54,8 @@
 
 Dev dependencies like nodemon we don't want to package for final build of the application. These are only for development purpose to run the application on local
 
-
+## _Steps_
+- npm init
+- Required toold installation: express dotenv and mongoose
+- Dev (nodemon)
+- Design Schema for User
