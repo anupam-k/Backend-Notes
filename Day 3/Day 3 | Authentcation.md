@@ -48,3 +48,8 @@
 
 ![image](https://user-images.githubusercontent.com/91872149/200102464-2b07e164-44d9-485f-a6dc-6e6edcd375b7.png)
 
+## _Q. Why node moon is install as dev dependency_
+
+Dev dependencies like nodemon we don't want to package for final build of the application. These are only for development purpose to run the application on local
+
+
