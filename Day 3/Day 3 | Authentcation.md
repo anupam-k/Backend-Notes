@@ -55,7 +55,9 @@
 Dev dependencies like nodemon we don't want to package for final build of the application. These are only for development purpose to run the application on local
 
 ## _Steps_
-- npm init
-- Required toold installation: express dotenv and mongoose
-- Dev (nodemon)
-- Design Schema for User
+**_1) npm init_**<br>
+**_2) Required tool installation: express dotenv and mongoose_**<br>
+**_3) Dev (nodemon)_**<br>
+**_4) Design Schema for User_**<br>
+**_5) From the User_**<br>
+
