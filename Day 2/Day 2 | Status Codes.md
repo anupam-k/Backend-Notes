@@ -7,7 +7,7 @@ HTTP response status codes indicate whether a specific HTTP request has been suc
 - _**Client error responses (400 – 499)**_<br>
 - _**Server error responses (500 – 599)**_
 
-## _Successful Response_ 
+## _Important Status Codes_ 
 - _**200 OK**_
 - _**302 Found**_
 - _**400 Bad Request**_
