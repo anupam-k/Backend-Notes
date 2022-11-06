@@ -187,4 +187,4 @@ app.post("/login", async (req, res) => {
 # _HW_
 - make this project up and running
 - add listening port
-- heck with Postman
+- check with Postman
