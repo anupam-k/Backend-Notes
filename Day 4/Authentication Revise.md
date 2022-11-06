@@ -132,7 +132,7 @@ app.post("/register", async (req, res) => {
     );
 
     user.token = token;
-    // don't want to senf the password
+    // don't want to send the password
     user.password = undefined;
 
     res.status(201).json(user);
