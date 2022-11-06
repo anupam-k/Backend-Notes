@@ -70,7 +70,7 @@ module.exports = mongoose.model("user", userSchema);
 ```
 </b>
 
-## _3rd Step: App.js_
+## _3rd Step: App.js (controller)_
 
 <b>
   
