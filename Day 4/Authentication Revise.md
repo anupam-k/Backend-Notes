@@ -10,7 +10,7 @@
 
 
 
-# _Start with databse.js_
+# _Start with databse.js(config)_
 
 <b>
   
@@ -36,7 +36,7 @@ exports.connect = () => {
   
 </b>
 
-# _2nd Step is with user.js_
+# _2nd Step is with user.js(model)_
 
 <b>
 
