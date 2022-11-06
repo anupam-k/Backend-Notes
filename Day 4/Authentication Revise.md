@@ -69,3 +69,77 @@ module.exports = mongoose.model("user", userSchema);
 
 ```
 </b>
+
+## _3rd Step: App.js_
+
+<b>
+  
+ ```javascript
+ require("./config/database").connect();
+const express = require("express");
+const jwt = require("jsonwebtoken");
+const bcrypt = require("bcrypt");
+
+// import model - User
+const User = require("./model/user");
+
+const app = express();
+app.use(express.json()); // discuss this later
+app.use(express.urlencoded({ extended: true }));
+
+app.get("/", (req, res) => {
+  res.send("Hello Auth System");
+});
+
+app.post("/register", async (req, res) => {
+  try {
+    // collect all information
+    const { firstname, lastname, email, password } = req.body;
+
+    // validate if data exists, if exists
+    if (!(email && password && lastname && firstname)) {
+      res.status(402).send("All fields are required!");
+    }
+
+    // check if email is in correct format or not
+
+    // check if user exits or not
+    const existingUser = await User.findOne({ email });
+
+    if (existingUser) {
+      res.status(401).send("User already found in Database!");
+    }
+
+    // encrypt the password
+    const myEncyPassword = await bcrypt.hash(password, 10);
+
+    // create a new entry in the database
+    const user = await User.create({
+      firstname,
+      lastname,
+      email,
+      password: myEncyPassword,
+    });
+
+    // create a token and send it to user
+    const token = jwt.sign(
+      {
+        id: user._id,
+        email,
+      },
+      "shhhh",
+      { expiresIn: "2h" }
+    );
+
+    user.token = token;
+    // don't want to senf the password
+    user.password = undefined;
+
+    res.status(201).json(user);
+  } catch (error) {
+    console.log(error);
+    console.log("Error is response route");
+  }
+});
+```
+</b>
