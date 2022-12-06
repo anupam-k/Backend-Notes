@@ -1,8 +1,8 @@
 # _Overview of Web 🌐_
 
 ## _Some Points_
-- Cost of using any package means the size that the particular package is consuming
-- Any package that has dependencies can be a threat to users using that package as some people adds malicious code to get the information
+- _**Cost of using any package**_ means the _<b>Size that is consumed by the particular package</b>_
+- **_Any package that has dependencies_** can be a _**threat to users using that package as some people adds malicious code to get the information**_
 
 # _Topics_
 - _**How to Integrate Frontend to Backend**_
@@ -34,22 +34,31 @@
 - _**Response**_
 - _**URL Query/URL String**_
 
+<b>
+  
 ```javascript
 ineuron.ai/courses?
 ```
+</b>
 
 - as soon as you see question mark: means URL query parameter is going to start
 - We always have key value Pair
 
+<b>
+  
 ```javascript
 ineuron.ai/courses?search_query=Full+Stack+Javascript+Bootcamp
 ```
-
+</b>
+  
 - `+` is used to add another key value Pair
 
+<b>
+  
 ```javascript
 https://www.youtube.com/watch?v=GdwjE7bqQkY
 ```
+</b>
 
 - when we click a video, it generates a unique id for that specific id
 
@@ -58,12 +67,12 @@ https://www.youtube.com/watch?v=GdwjE7bqQkY
 - The user initiates an API call that
 
 ## _Node JS Architechture_
-- Request
-- Node.js Server
-- Event Queue
-- Thread Pool
-- Event Pool
-- External Resource
+- _**Request**_
+- _**Node.js Server**_
+- _**Event Queue**_
+- _**Thread Pool**_
+- _**Event Pool**_
+- _**External Resource**_
 
 ## _Event Pool_
 All the requests which are not dependent on anything, then event Loop will execute them
@@ -74,15 +83,15 @@ All the requests which are dependent on anything, they will be sent to Thread Po
 ![image](https://user-images.githubusercontent.com/91872149/198816568-31c3911f-bc99-46cc-a5aa-ea16a2baa398.png)
 
 ## _Workflow of Nodejs Architecture_
-- Querying for Data
-- Deleteing Data
-- Updating Data
+- _**Querying for Data**_
+- _**Deleteing Data**_
+- _**Updating Data**_
 
 ## _Server_
-- Listen
-- Localhost(Domain)
-- PORT (place where a specific Site is placed)
-- A server contains from PORT 0 - 65535
+- _**Listen**_
+- _**Localhost(Domain)**_
+- _**PORT (place where a specific Site is placed)**_
+- _**A server contains from PORT 0 - 65535**_
 
 ![image](https://user-images.githubusercontent.com/91872149/198816640-3db5a418-bc22-4dda-94c6-21ca6730bf3d.png)
 
@@ -90,8 +99,8 @@ All the requests which are dependent on anything, they will be sent to Thread Po
 ![image](https://user-images.githubusercontent.com/91872149/198816978-27de59ea-8da2-4d39-ab73-6399a0ba8bfb.png)
 
 ## _Database_
-- Structured Query Language(SQL)
-- Not only SQL(NoSQL)(eg.: mongoDB)
+- _**Structured Query Language(SQL)**_
+- _**Not only SQL(NoSQL)(eg.: mongoDB)**_
 
 **_Collections:_** some sort of table kind of format, structure on which we will be entering the value
 
@@ -99,7 +108,7 @@ All the requests which are dependent on anything, they will be sent to Thread Po
 **_NoSQL:_** Id, Key:value,
 
 ## _MVC Architecture_
-- Model, View, Controller
+- _**Model, View, Controller**_
 
 **Use Case of a Resturant**
 - **_User:_**   View
@@ -110,9 +119,14 @@ All the requests which are dependent on anything, they will be sent to Thread Po
 The middleware in node. js is a function that will have all the access for requesting an object, responding to an object, and moving to the next middleware function in the application request-response cycle.
 
 ## _Password Hashing_
+<b>
+  
 `12345 => bcrypt => asdfghyjk`
+</b>
 - bcrypt changes the normal password to encrypted form
 
+<b>
+  
 `12345 => bcrypt + salt => asdfghyjkwertyuio`
-
+</b>
 - bcrypt=asdfghyjk & salt=wertyuio
